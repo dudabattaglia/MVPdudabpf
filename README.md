@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para o MVP da disciplina Ciência de Dados – PUC-RIO, utilizando a plataforma Databricks Community Edition e linguagem SQL pura.
 
-## 📌 Objetivo
+## Objetivo
 
 Construir um pipeline de dados em nuvem para responder perguntas de negócio reais com base nos dados de consumo musical global no Spotify em 2024. As questões abordadas são:
 
@@ -12,7 +12,7 @@ Construir um pipeline de dados em nuvem para responder perguntas de negócio rea
 - Qual a média de streams por artista?
 - Existe diferença significativa de consumo entre gêneros?
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto foi construído com base na arquitetura em camadas: Bronze → Silver → Gold
 
@@ -36,7 +36,7 @@ MVP ENG DADOS DUDABPF/
 ```
 
 
-## 🗂️ Camadas do Pipeline
+## Camadas do Pipeline
 
 ### 🔸 Bronze  
 Importação direta do arquivo CSV para o Databricks, sem tratamento.
@@ -50,7 +50,7 @@ Agregações por artista, gênero e país com cálculo de métricas de negócio:
 - Total de streams
 - Média de streams por música
 
-## 📊 Consultas de Análise
+## Consultas de Análise
 
 - `top10_artistas` — artistas com maior volume de streams
 - `generos_populares` — gêneros mais escutados
@@ -58,7 +58,7 @@ Agregações por artista, gênero e país com cálculo de métricas de negócio:
 - `media_streams_por_artista` — média de streams por artista
 - `media_streams_por_genero` — comparação média entre gêneros
 
-## 📑 Catálogo de Dados
+## Catálogo de Dados
 
 O catálogo da camada Gold foi elaborado conforme exigência acadêmica, detalhando:
 - Tipo de cada atributo
@@ -68,7 +68,7 @@ O catálogo da camada Gold foi elaborado conforme exigência acadêmica, detalha
 - Linhagem: origem, transformações, objetivos
 ---
 
-## 📝 Licença
+## Licença
 
 Este projeto está licenciado sob os termos da **Apache License 2.0**.
 
@@ -82,14 +82,13 @@ Isso significa que:
 Para mais detalhes, consulte o texto completo da licença:  
 [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-
 👉 Ver seção “Modelagem” no relatório PDF
 
-## 🧠 Autoavaliação
+## Autoavaliação
 
 Durante o desenvolvimento deste projeto, foram aplicados conceitos de engenharia de dados e análise SQL em nuvem. As principais dificuldades ocorreram na transformação do schema e adaptação dos dados para análise, superadas com apoio técnico. O projeto foi entregue completo, com todos os requisitos atendidos.
 
-## ✅ Entrega
+## Entrega
 
 - Código estruturado por etapas
 - Documentação completa (PDF)
@@ -99,7 +98,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de engenharia
 
 ---
 
-## 👤 Autoria
+## Autoria
 
 Maria Eduarda Battaglia Pedreira Fernandes  
 PUC-Rio — Ciência de Dados  
